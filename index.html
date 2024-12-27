@@ -1,97 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Ball Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="header">
+    <header>
         <div class="logo">
-            <img src="https://i.ibb.co/TKpQc2t/DALL-E-2024-12-15-13-47-30-A-modern-minimalistic-logo-for-an-e-commerce-store-specializing-in-sports.jpg" alt="Game Ball Hub Logo">
+            <img src="logo.png" alt="Game Ball Hub Logo">
         </div>
-        <nav class="nav">
+        <nav>
             <ul>
-                <li><a href="#">Basketball</a></li>
-                <li><a href="#">Soccer Ball</a></li>
-                <li><a href="#">Baseball</a></li>
-                <li><a href="#">Pool Ball</a></li>
-                <li><a href="#">Volleyball</a></li>
+                <li><a href="basketball.html">Basketball</a></li>
+                <li><a href="baseball.html">Baseball</a></li>
+                <li><a href="pool_ball.html">Pool Ball</a></li>
+                <li><a href="volleyball.html">Volleyball</a></li>
+                <li><a href="soccer_ball.html">Soccer Ball</a></li>
             </ul>
         </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
     </header>
-    
 
-    <main class="main-content">
-        <section class="carousel">
-            <h2>Our Top Picks for You</h2>
-            <div class="carousel-wrapper">
-                <button class="carousel-btn prev">&#10094;</button>
-                <div class="carousel-track">
-                    <div class="carousel-item">
-                        <img src="https://i.ibb.co/vCWSXHj/315.jpg" alt="Top Pick 1">
-                        <p>Top Pick Basketball</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://i.ibb.co/PcvmW0W/633b76f138ef526b7948b175-ubuy-online-shopping.jpg" alt="Top Pick 2">
-                        <p>Top Pick Soccer Ball</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://i.ibb.co/T1WjHMM/baby-blue-eyes-solid-color-baseball-r2734f7b0c2fa4c98997636875978ca17-zm8lq-306.jpg" alt="Top Pick 3">
-                        <p>Top Pick Baseball</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://i.ibb.co/dK7gQzx/Baden-Elite-Basketball-1024x1024.jpg" alt="Top Pick 4">
-                        <p>Top Pick Volleyball</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://i.ibb.co/t8nnWK3/ph-11134201-7r98r-m0bcmpc90u1024.jpg" alt="Top Pick 5">
-                        <p>Top Pick Pool Ball</p>
-                        <button class="add-to-cart">Add to Cart</button>
-                    </div>
-                </div>
-                <button class="carousel-btn next">&#10095;</button>
-            </div>
-        </section>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>December Deals</h1>
+            <p>Save big on premium sports balls this holiday season!</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.jpg" alt="Sports balls">
+        </div>
+    </section>
 
-        <section class="product-grid">
-            <h2>Popular Right Now</h2>
-            <div class="grid-wrapper">
-                <div class="grid-item">
-                    <img src="https://i.ibb.co/vCWSXHj/315.jpg" alt="Basketball">
-                    <p>Basketball</p>
+    <section class="top-picks">
+        <h2>Our Top Picks for You</h2>
+        <div class="carousel">
+            <button class="carousel-prev">&#8249;</button>
+            <div class="carousel-track">
+                <div class="carousel-item">
+                    <img src="basketball.jpg" alt="Basketball">
+                    <p>Top Pick Basketball</p>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
-                <div class="grid-item">
-                    <img src="https://i.ibb.co/PcvmW0W/633b76f138ef526b7948b175-ubuy-online-shopping.jpg" alt="Soccer Ball">
-                    <p>Soccer Ball</p>
+                <div class="carousel-item">
+                    <img src="soccer_ball.jpg" alt="Soccer Ball">
+                    <p>Top Pick Soccer Ball</p>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
-                <div class="grid-item">
-                    <img src="https://i.ibb.co/T1WjHMM/baby-blue-eyes-solid-color-baseball-r2734f7b0c2fa4c98997636875978ca17-zm8lq-306.jpg" alt="Baseball">
-                    <p>Baseball</p>
+                <div class="carousel-item">
+                    <img src="baseball.jpg" alt="Baseball">
+                    <p>Top Pick Baseball</p>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
-                <div class="grid-item">
-                    <img src="https://i.ibb.co/dK7gQzx/Baden-Elite-Basketball-1024x1024.jpg" alt="Volleyball">
-                    <p>Volleyball</p>
+                <div class="carousel-item">
+                    <img src="volleyball.jpg" alt="Volleyball">
+                    <p>Top Pick Volleyball</p>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
-                <div class="grid-item">
-                    <img src="https://i.ibb.co/t8nnWK3/ph-11134201-7r98r-m0bcmpc90u1024.jpg" alt="Pool Ball">
-                    <p>Pool Ball</p>
+                <div class="carousel-item">
+                    <img src="pool_ball.jpg" alt="Pool Ball">
+                    <p>Top Pick Pool Ball</p>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
             </div>
-        </section>
-    </main>
+            <button class="carousel-next">&#8250;</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
